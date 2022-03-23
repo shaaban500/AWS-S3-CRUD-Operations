@@ -1,4 +1,4 @@
-# AWS-S3-CRUD-Operations
+# [AWS-S3-CRUD-Operations](http://elbay.somee.com/Files)
   ## Description:
    ### Basic operations in Amazon S3 Bucket with .NET 6 Standard Code including:
     - Uploading file to bucket
@@ -19,9 +19,12 @@
 ## Installation & Usage:
    ##### 1- Clone the repo
    ##### 2- Build your app to download the needed packages
-  ------------------------------------------------------------------------------------------
-### OPTIONAL
+
+#### OPTIONAL
   * If you want to create a project from scratch, you will need to install AWSSDK.S3 package from NuGetPackage in visual studio
--------------------------------------------------------------------------------------------
-### CLARIFICATION
-  * Credential info about AWS user and AWS bucket is injected using service configuration class and appsettings.json file. 
+
+#### CLARIFICATION
+  * Credential info about AWS user and AWS bucket is injected using service configuration class and appsettings.json file.
+-----------
+#### To see published version [click here](http://elbay.somee.com/Files)
+
