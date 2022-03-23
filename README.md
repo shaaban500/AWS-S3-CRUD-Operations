@@ -1,6 +1,6 @@
 # [AWS-S3-CRUD-Operations](http://elbay.somee.com/Files)
   ## Description:
-   ### Basic operations in Amazon S3 Bucket with .NET 6 Standard Code including:
+   ### Basic operations on AWS S3 bucket with .NET 6 Standard Code including:
     - Uploading file to bucket
     - Downloading file from bucket
     - Deleting file from bucket
