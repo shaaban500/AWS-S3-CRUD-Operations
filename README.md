@@ -20,10 +20,10 @@
    ##### 1- Clone the repo
    ##### 2- Build your app to download the needed packages
 
-#### OPTIONAL
+#### OPTIONAL:
   * If you want to create a project from scratch, you will need to install AWSSDK.S3 package from NuGetPackage in visual studio
 
-#### CLARIFICATION
+#### CLARIFICATION:
   * Credential info about AWS user and AWS bucket is injected using service configuration class and appsettings.json file.
 -----------
 #### To see published version [click here](http://elbay.somee.com/Files)
