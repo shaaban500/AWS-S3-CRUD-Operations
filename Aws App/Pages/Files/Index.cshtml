@@ -1,0 +1,65 @@
+﻿@page
+@model Aws_App.Pages.Files.IndexModel
+@{
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Files</h2>
+        </div>
+    </div>
+
+    <br /><br />
+
+    <div class="w-30 btn-group" role="group">
+        <a asp-page="Upload" class="btn btn-success mx-2">
+            <i class="bi bi-pencil-square"></i>
+            Upload
+        </a>
+    </div>
+       
+    <br /><br />
+    <table class="table table-bordered table-striped" style="width:80%">
+        <thead>
+            <tr>
+                <th>
+                    NUM
+                </th>
+
+                <th>
+                    Name
+                </th>
+                <th width="40%">
+                    Action
+                </th>
+             
+            </tr>
+        </thead>
+        <tbody>
+            @{int i = 0;}
+            @foreach (var key in Model.Keys)
+            {
+                <tr>
+                    @{i++;}
+                    <td>@i</td>
+                    <td width="50%">@key</td>
+                    <td>
+                        <div class="w-25 btn-group" role="group" blo>
+                            <a asp-page="Download" asp-route-fileName="@key" class="btn btn-primary mx-2">
+                                <i class="bi bi-pencil-square"></i>
+                                Download
+                            </a>
+                        </div>
+                            <a asp-page="Delete"  asp-route-fileName="@key" class="w-25 btn btn-danger mx-2" >
+                                <i class="bi bi-trash-fill"></i>
+                                Delete
+                            </a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>

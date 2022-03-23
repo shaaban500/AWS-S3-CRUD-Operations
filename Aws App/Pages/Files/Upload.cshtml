@@ -1,0 +1,23 @@
+﻿@page
+@model Aws_App.Pages.Files.UploadModel
+@{
+}
+ 
+<div>
+    <div>
+        <h6 class="item-title"><i class="fa fa-user"></i>Upload File</h6>                    
+            <div asp-validation-summary="ModelOnly" class="Dash-form text-danger"></div>
+  
+            @using (Html.BeginForm ("/Files/Upload",  
+                                    "/Files/Upload",  
+                                    FormMethod.Post,  
+                                    new { enctype = "multipart/form-data" }))  
+            {                    
+                <label for="file">Upload</label>  
+                <input type="file" name="file" id="file"/><br><br> 
+                <input type="submit" class="btn btn-success" value="Upload"/>  
+                <br><br>  
+
+            }
+    </div>
+</div>
