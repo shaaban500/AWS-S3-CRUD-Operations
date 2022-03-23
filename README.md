@@ -15,7 +15,7 @@
   * Visual studio 2022
   * .Net Core 6.0
   * AWS S3
-  * 
+  
 ## Installation & Usage:
    ##### 1- Clone the repo
    ##### 2- Build your app to download the needed packages
