@@ -26,5 +26,5 @@
 #### CLARIFICATION:
   * Credential info about AWS user and AWS bucket is injected using service configuration class and appsettings.json file.
 -----------
-#### To see published version [click here](http://elbay.somee.com/Files)
+#### To see live version [click here](http://elbay.somee.com/Files)
 
