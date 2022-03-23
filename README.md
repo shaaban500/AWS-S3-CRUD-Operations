@@ -1,4 +1,4 @@
-# [AWS-S3-CRUD-Operations](http://elbay.somee.com/Files)
+# [AWS-S3-CRUD-Operations](http://sha3banelbay.somee.com/Files)
   ## Description:
    ### Basic operations on AWS S3 bucket with .NET 6 Standard Code including:
     - Uploading file to bucket
@@ -26,5 +26,5 @@
 #### CLARIFICATION:
   * Credential info about AWS user and AWS bucket is injected using service configuration class and appsettings.json file.
 -----------
-#### To see live version [click here](http://elbay.somee.com/Files)
+#### To see live version [click here](http://sha3banelbay.somee.com/Files)
 
